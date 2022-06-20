@@ -1,0 +1,12 @@
+package com.sbi;
+
+import org.junit.Test;
+
+public class TestCar {
+	@Test
+	public void TestCar() {
+		Car theCar =new Car();
+		theCar.drive();
+	}
+
+}

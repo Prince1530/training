@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx.xsd"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx">
+	</beans>
+	
+	
+	<bean id="thePiston" class="com.sbi.Piston">
+		<constructor-arg value="Twin Spark"/>
+	
+	</bean>
+	<bean id="theEngine" class="com.sbi.Engine">
+		<constructor-arg ref="thePiston"/>
+	
+	</bean>
+	<bean id="theCar" class="com.sbi.Car">
+		<constructor-arg ref="theEngine"/>
+	
+	</bean>
+	<bean id="DieselCarEngine" class="com.sbi.Engine.DieselEngine">
+	<constructor-arg ref="thePiston"/>
+	
+	
+	</bean>

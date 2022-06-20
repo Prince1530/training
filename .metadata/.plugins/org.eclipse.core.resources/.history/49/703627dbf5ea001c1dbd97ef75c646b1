@@ -1,0 +1,15 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>SBI</h1>
+Enter your first name<input type=text><br>
+Enter your last name<input type=text><br>
+Enter your birth date<input type=text><br>
+Enter your email add<input type=text><br>
+<input type=submit name =submit value="Register"><br>
+</body>
+</html>

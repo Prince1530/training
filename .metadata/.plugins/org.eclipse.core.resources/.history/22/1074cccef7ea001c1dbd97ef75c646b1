@@ -1,0 +1,18 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="style.css"/ >
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Register yourself here</h1>
+<table>
+<tr><td>Enter your first name</td><td><input type=text></td><br>
+<tr><td>Enter your last name</td><td><input type=text></td><br>
+<tr<td>Enter your birth date<input type=date></tr></td><br>
+<tr><td>Enter your email add</td><td><input type=text></td><br>
+<tr><td><input type=submit name =submit value="Register"></tr></td> <br>
+</table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>SBI</h1>
+<hr>Not banking with us? Register Here<br>
+Existing user!!! <a href="Login.html">Login Here</a><br>
+</hr>
+
+			
+</body>
+</html>

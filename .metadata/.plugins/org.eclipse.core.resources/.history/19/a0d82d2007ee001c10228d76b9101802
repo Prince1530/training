@@ -1,0 +1,13 @@
+package com.sbi;
+
+
+
+
+public class TestCar {
+	
+	public void test() {
+		Car theCar =new Car();
+		theCar.drive();
+	}
+
+}

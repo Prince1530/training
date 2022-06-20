@@ -1,0 +1,77 @@
+
+public class Employee {
+	private int empNo;
+	private String ename;
+	private String job;
+	private int manager;
+	private Date hire_Date;
+	private double salary;
+	private double commission;
+	private int DeptNo;
+	public int getEmpNo() {
+		return empNo;
+	}
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public String getJob() {
+		return job;
+	}
+	public void setJob(String job) {
+		this.job = job;
+	}
+	public int getManager() {
+		return manager;
+	}
+	public void setManager(int manager) {
+		this.manager = manager;
+	}
+	public Date getHire_Date() {
+		return hire_Date;
+	}
+	public void setHire_Date(Date hire_Date) {
+		this.hire_Date = hire_Date;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public double getCommission() {
+		return commission;
+	}
+	public void setCommission(double commission) {
+		this.commission = commission;
+	}
+	public int getDeptNo() {
+		return DeptNo;
+	}
+	public void setDeptNo(int deptNo) {
+		DeptNo = deptNo;
+	}
+	public Employee(int empNo, String ename, String job, int manager, Date hire_Date, double salary, double commission,
+			int deptNo) {
+		super();
+		this.empNo = empNo;
+		this.ename = ename;
+		this.job = job;
+		this.manager = manager;
+		this.hire_Date = hire_Date;
+		this.salary = salary;
+		this.commission = commission;
+		DeptNo = deptNo;
+	}
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

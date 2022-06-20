@@ -1,0 +1,13 @@
+package com.sbi;
+
+import org.junit.jupiter.api.Test;
+
+public class TestCar {
+	
+	@Test
+	public void test() {
+		Car theCar =new Car();
+		theCar.drive();
+	}
+
+}

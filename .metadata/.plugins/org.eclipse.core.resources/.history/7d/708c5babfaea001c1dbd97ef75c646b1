@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="style.css"/ >
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>SBI</h1>
+<ul>
+<li>Home</li>
+<li>News</li>
+<li>Balance Enquiry</li>
+<li>Payees</li>
+<li>Transfers</li>
+<li>Statements</li>
+<li>HomeProfiles</li>
+<li>Contact</li>
+<li>About US</li>
+<li>Log Out</li>
+
+</ul>
+
+			
+</body>
+</html>

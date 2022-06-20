@@ -1,0 +1,44 @@
+package bankexception;
+
+public class BankTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			BankAccount a = new BankAccount(101, "nischal", 1000);
+			a.withdraw(2000);
+		} catch(OpeningBalanceException ex) {
+			System.out.println(ex);
+		} catch(InsufficientBalanceException ex) {
+			System.out.println(ex);
+		}
+	}
+
+}
+
+class BankAccount {
+	private int accountNumber;
+	private String accountHolder;
+	private double balance;
+	
+	public BankAccount(int accountNumber, String accountHolder, double balance) throws OpeningBalanceException {
+		super();
+		this.accountNumber = accountNumber;
+		this.accountHolder = accountHolder;
+		
+		if(balance < 3000) {
+			throw new OpeningBalanceException("min 3000 balance required to open the account");
+		} else {
+			this.balance = balance;
+		}
+	}
+	
+	void withdraw(double amount) {
+		if(balance < amount) {
+			throw new InsufficientBalanceException("insufficient balance");
+		} else {
+			this.balance = balance - amount;
+			System.out.println("remaining balance ===> " + this.balance);
+		}
+	}
+}

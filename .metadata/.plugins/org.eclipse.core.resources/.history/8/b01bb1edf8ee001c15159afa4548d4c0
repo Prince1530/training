@@ -1,0 +1,5 @@
+package com.sbi.orm;
+
+public interface CarRepository {
+
+}

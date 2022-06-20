@@ -1,0 +1,23 @@
+package com.sbi;
+
+public class FlightTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Flight theFlight = new Flight();
+		theFlight.fly();
+		theFlight.landing();
+	}
+
+}
+public class Flight{
+	private void fly()
+	{
+		System.out.println("flight is flying");
+		// TODO Auto-generated method stub
+
+	}
+	public void landing() {
+		System.out.println("flight is landing");
+	}
+}

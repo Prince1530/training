@@ -1,0 +1,5 @@
+package bankexception;
+
+public class OpeningBalanceException {
+
+}

@@ -1,0 +1,9 @@
+package com.sbi;
+public class TestCar {
+	@Test
+	public void TestCar() {
+		Car theCar =new Car;
+		theCar.dr();
+	}
+
+}
